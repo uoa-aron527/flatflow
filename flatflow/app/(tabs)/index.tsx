@@ -1,6 +1,12 @@
-import { Image, StyleSheet, Platform, Text } from 'react-native';
+import { Image, StyleSheet, Platform, Text, View } from 'react-native';
 
 export default function HomeScreen() {
   return (
-    <Text className = 'text-green-500'>Test App</Text>
+    <View className='flex-1 p-[4%] justify-center'>
+      <View className='bg-gray-400 p-[4%] rounded-md'>
+        <Text className = 'text-white'>Food item name goes here</Text>
+      </View>
+      
+    </View>
+    
   )}
